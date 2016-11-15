@@ -53,6 +53,10 @@ input {
     padding-left: 3%;
 	height: 80px;
 }
+.header {
+	width: 70%;
+    margin: 0 auto;
+}
 div#nav {
     width: 67%;
     float: left;

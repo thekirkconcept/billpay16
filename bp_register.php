@@ -22,7 +22,7 @@ $sql="INSERT INTO users(userID,username,email,u_password,u_pw_verify,u_phone,u_f
 VALUES('".$userID."','".$usernameID."','".$uemail."','".$upassword."','".$upasswordv."','".$uphone."','".$ufname."','".$ulname."','".$uaddress."','".$uaddress2."','".$ucity."','".$ustate."','".$uzipcode."')";
 
 if (mysqli_query($dbcon, $sql)) {
-      header("Location: thanks-registration.php");
+      header("Location: thanks-register.php");
 	 //echo <a href="index.php">Go back to the main page</a>;
 	 
 	 //echo 'Thank you for registering! Check your email to confirm your registration. Once confirmed head to the <a href="login.php">Login Page</a>';
