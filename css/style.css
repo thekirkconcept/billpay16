@@ -1,0 +1,12 @@
+form.register {
+    width: 60%;
+    margin: 0 auto;
+}
+input {
+    width: 100%;
+    margin: 20px 0;
+	height:30px;
+}
+div#nav a {
+    color: orange;
+}
