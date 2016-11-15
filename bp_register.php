@@ -1,7 +1,6 @@
 <?php
 
 include_once('dataconnect.php'); 
-include('header.html');
 
 // Create variables of column names from database
 $userID = $_POST["userID"];
@@ -23,11 +22,11 @@ $sql="INSERT INTO users(userID,username,email,u_password,u_pw_verify,u_phone,u_f
 VALUES('".$userID."','".$usernameID."','".$uemail."','".$upassword."','".$upasswordv."','".$uphone."','".$ufname."','".$ulname."','".$uaddress."','".$uaddress2."','".$ucity."','".$ustate."','".$uzipcode."')";
 
 if (mysqli_query($dbcon, $sql)) {
-      //header("Location: bank_details.html");
+      header("Location: thanks-registration.php");
 	 //echo <a href="index.php">Go back to the main page</a>;
 	 
-	 echo 'Successfully Registered';
-	 echo '<a href="index.html">Go back to the main page</a>';
+	 //echo 'Thank you for registering! Check your email to confirm your registration. Once confirmed head to the <a href="login.php">Login Page</a>';
+	 //echo '<a href="index.html">Go back to the main page</a>';
 	 
 } 
 else {
