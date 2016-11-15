@@ -2,7 +2,7 @@
 // Create Connection
 $dbhost = 'localhost'; 
 $dbuser = 'root'; 
-$dbpass = 'root'; 
+$dbpass = ''; 
 $dbname = 'fp1-data';
 $dbcon = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 
