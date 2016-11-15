@@ -1,12 +1,74 @@
+html {
+	font-family:sans-serif;
+}
+div#content {
+    clear: both;
+    padding: 20px 20%;
+}
+/* FORM ---------------------*/
 form.register {
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
+}
+p.regi-header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: navy;
+}
+fieldset {
+    border: none;
+}
+legend {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 24px;
+    line-height: 22px;
 }
 input {
     width: 100%;
-    margin: 20px 0;
-	height:30px;
+    margin: 10px 0;
+    height: 30px;
+    border-radius: 2px;
+    border: 1px solid lightgray;
+    padding: 5px 10px;
+    font-size: 18px;
+	font-weight:lighter;
+}
+.btn {
+    background: orange;
+    border: none;
+    padding: 15px 50px;
+    font-size: 16px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: white;
+}
+/* NAVIGATION ---------------------*/
+.logo {
+    width: 27%;
+    float: left;
+    padding-left: 3%;
+	height: 80px;
+}
+div#nav {
+    width: 67%;
+    float: left;
+    height: 80px;
+    text-align: right;
+    line-height: 80px;
 }
 div#nav a {
     color: orange;
+    text-decoration: none;
 }
+#nav ul {
+    list-style-type: none;
+}
+#nav li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
