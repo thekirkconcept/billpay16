@@ -11,13 +11,13 @@ include("includes/header.php");
 include("includes/nav.php"); 
 ?>
 
-<div id="content">
+<div id="content" class="thanks">
 <h1>
   Thank you so much for Registering with Bill Priority V1!
   </h1>
   <img src="">
   <p>
-    Please check your email to verify your account! Once you have verified your account head over to the <a href="login.php">Login Page.</a>
+    Please check your email to verify your account! Once you have verified your account head over to the <br><a class="btn" href="login.php">Login Page</a>
   </p>
 </div>
 

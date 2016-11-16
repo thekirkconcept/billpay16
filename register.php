@@ -11,9 +11,9 @@ include("includes/header.php");
 include("includes/nav.php"); 
 ?>
 
-<div id="content">
+<div class="uk-container uk-container-center">
  <form action="bp_register.php" class="register" method="POST">
-            <p style="text-align:center;margin-top:-5px;padding-top:15px;padding-bottom:-15px;margin-bottom:5px; font-weight:900;color:#0170cd;font-size:x-large;">Register an Account</p>
+            <p class="regi-header">Register an Account</p>
     
 	
 	        <fieldset class="row1">

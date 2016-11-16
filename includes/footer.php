@@ -1,4 +1,4 @@
-<div id="footer">
+<div id="footer" class="copyright">
 <p>Copyright © 2016</p>
 </div>
 

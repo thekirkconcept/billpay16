@@ -1,14 +1,24 @@
 html {
 	font-family:sans-serif;
 }
-div#content {
+a {
+	cursor:pointer;
+	text-decoration:none;
+}
+button {
+	cursor:pointer;
+}
+.uk-container {
     clear: both;
-    padding: 20px 20%;
+    min-height: 600px;
+	margin:0;
+	display:block;
 }
 /* FORM ---------------------*/
 form.register {
-    width: 100%;
+    width: 60%;
     margin: 0 auto;
+    clear: both;
 }
 p.regi-header {
     text-align: center;
@@ -45,20 +55,26 @@ input {
     font-weight: lighter;
     text-transform: uppercase;
     color: white;
+    text-decoration: none;
+    display: block;
+    margin: 20px auto;
 }
 /* NAVIGATION ---------------------*/
 .logo {
-    width: 27%;
+    width: 30%;
     float: left;
-    padding-left: 3%;
 	height: 80px;
 }
+.logo a {
+    color:navy;
+}
 .header {
-	width: 70%;
+    padding: 0px 20% 80px;
     margin: 0 auto;
+    display: block;
 }
 div#nav {
-    width: 67%;
+    width: 70%;
     float: left;
     height: 80px;
     text-align: right;
@@ -70,9 +86,19 @@ div#nav a {
 }
 #nav ul {
     list-style-type: none;
+	    margin: 0;
 }
 #nav li {
     display: inline-block;
     margin: 0 20px;
 }
 
+/* NAVIGATION ---------------------*/
+.copyright p {
+	text-align:center;
+}
+
+/* Pages ---------------------*/
+.thanks p {
+	text-align:center;
+}
